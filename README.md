@@ -24,6 +24,10 @@ Android Studio 插件，快速生成代码。
 ### 自动生成Singleton
 ![](https://github.com/MrZhousf/AndroidPlugins/blob/master/pic/singleton.gif?raw=true)
 
+### 安装本地插件
+![](https://github.com/MrZhousf/AndroidPlugins/blob/master/pic/install.gif?raw=true)
+
+
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 

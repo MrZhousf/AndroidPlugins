@@ -19,10 +19,10 @@ Android Studio 插件，快速生成代码。
 
 ## 相关截图
 ### 自动生成AlertDialog
-![](https://github.com/MrZhousf/EasyDB/blob/master/pic/dialog.jpg?raw=true)
+![](https://github.com/MrZhousf/EasyDB/blob/master/pic/dialog.gif?raw=true)
 
 ### 自动生成Singleton
-![](https://github.com/MrZhousf/EasyDB/blob/master/pic/singleton.jpg?raw=true)
+![](https://github.com/MrZhousf/EasyDB/blob/master/pic/singleton.gif?raw=true)
 
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流

@@ -30,7 +30,11 @@ public class CreateDialogAction extends BaseGenerateAction {
         // 获取编辑器中的文件
         Project project = e.getData(PlatformDataKeys.PROJECT);
         Editor editor = e.getData(PlatformDataKeys.EDITOR);
+        if(editor == null || project == null)
+            return ;
         PsiFile file = PsiUtilBase.getPsiFileInEditor(editor, project);
+        if(file == null)
+            return ;
         // 获取当前类
         PsiClass targetClass = getTargetClass(editor, file);
         // 获取元素操作的工厂类

@@ -4,7 +4,7 @@ Android Studio 插件，快速生成代码。
 ## 功能点
 * Double Check 单例生成
 * 确认对话框生成
-* 后续优化中...
+
 
 ## 引用方式
 * 1.检出AndroidPlugins项目

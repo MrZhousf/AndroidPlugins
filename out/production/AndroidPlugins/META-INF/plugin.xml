@@ -1,0 +1,49 @@
+<idea-plugin>
+  <id>com.zhousf.plugin</id><!--插件ID，自定义，如果要上传到Plugins仓库不能有重复ID -->
+  <name>Zhousf Plugins</name><!--插件名称-->
+  <version>1.0</version>
+  <vendor email="424427633@qq.com" url="https://github.com/MrZhousf">YourCompany</vendor><!--邮箱和网址，上传到Plugins仓库会在你的插件界面显示 -->
+  <!-- 插件的简介，同样是显示在Plugins仓库信息界面 -->
+  <description><![CDATA[
+      zhousf plugins:<br>
+      1. create singleton class<br>
+      2. create dialog<br>
+      3. findViewById<br>
+    ]]></description>
+  <!-- 版本更新信息-->
+  <change-notes><![CDATA[
+      <br>
+      <em></em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="CreateSingletonAction.ID" class="singleton.CreateSingletonAction" text="Create Singleton(zsf)"
+            description="Create Singleton">
+      <add-to-group group-id="CodeMenu" anchor="first"/>
+    </action>
+    <action id="dialog.CreateDialogAction.ID" class="dialog.CreateDialogAction" text="Create Dialog(zsf)"
+            description="Create Dialog(zsf)">
+      <add-to-group group-id="CodeMenu" anchor="first"/>
+    </action>
+    <action id="findview.FindViewAction.ID" class="findview.FindViewAction" text="FindViewById(zsf)"
+            description="FindViewById(zsf)">
+      <add-to-group group-id="CodeMenu" anchor="first"/>
+    </action>
+  </actions>
+
+</idea-plugin>

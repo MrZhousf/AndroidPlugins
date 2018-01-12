@@ -32,18 +32,25 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="CreateSingletonAction.ID" class="singleton.CreateSingletonAction" text="Create Singleton(zsf)"
+    <action id="createfield.CreateFieldAction.ID" class="createfield.CreateFieldAction" text="Create Field"
+            description="Create Field">
+      <add-to-group group-id="CodeMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt Q"/>
+    </action>
+    <action id="CreateSingletonAction.ID" class="singleton.CreateSingletonAction" text="Create Singleton"
             description="Create Singleton">
       <add-to-group group-id="CodeMenu" anchor="first"/>
     </action>
-    <action id="dialog.CreateDialogAction.ID" class="dialog.CreateDialogAction" text="Create Dialog(zsf)"
-            description="Create Dialog(zsf)">
+    <action id="dialog.CreateDialogAction.ID" class="dialog.CreateDialogAction" text="Create Dialog"
+            description="Create Dialog">
       <add-to-group group-id="CodeMenu" anchor="first"/>
     </action>
-    <action id="findview.FindViewAction.ID" class="findview.FindViewAction" text="FindViewById(zsf)"
-            description="FindViewById(zsf)">
+    <action id="findview.FindViewAction.ID" class="findview.FindViewAction" text="FindViewById"
+            description="FindViewById">
       <add-to-group group-id="CodeMenu" anchor="first"/>
     </action>
+
+
   </actions>
 
 </idea-plugin>

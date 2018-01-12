@@ -16,7 +16,7 @@ Android Studio 插件，快速生成代码。
 
 ## 项目源码
 项目中已包含所有支持业务的源码，可以进行自定义插件编写。
-
+打包：Build -> Prepare Plugin Module For Deployment
 
 ## 相关截图
 ### 自动生成AlertDialog
